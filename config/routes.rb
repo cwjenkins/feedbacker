@@ -1,3 +1,3 @@
-Rails.application.routes.draw do
+Feedbacker::Engine.routes.draw do
     resources :remarks,             :only => [:create]
 end

@@ -55,7 +55,9 @@ Installation
           settings.email_prefix = '[FEEDBACKER]'        # default value
         end
 
+9. Mount the engine in config/routes.rb
 
+        mount Feedbacker::Engine, at: '/'
 
 Contributions
 -------------
